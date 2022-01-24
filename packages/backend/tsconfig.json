@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "commonjs",
+        "baseUrl": "./src",
+        "outDir": "./dist",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "strict": true,
+        "incremental": true,
+        "noFallthroughCasesInSwitch": true,
+        "esModuleInterop": true,
+        "sourceMap": false,
+        "noUnusedParameters": false,
+        "noUnusedLocals": true,
+        "resolveJsonModule": true,
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules", "dist"],
+    "compileOnSave": true
+}

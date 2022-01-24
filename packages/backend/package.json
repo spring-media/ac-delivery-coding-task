@@ -1,0 +1,21 @@
+{
+  "name": "@nmt/delivery-coding-task-backend",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "start": "yarn build && node dist/main.js",
+    "watch": "nodemon --watch src -e ts --exec 'yarn start'"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15",
+    "rimraf": "^3.0.2"
+  }
+}

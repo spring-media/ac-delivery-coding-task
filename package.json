@@ -1,0 +1,12 @@
+{
+  "name": "@nmt/delivery-coding-task",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start-server": "yarn --cwd packages/backend start"
+  }
+}
