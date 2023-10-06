@@ -2,7 +2,7 @@
 
 Starting the server from project root (without watching)
 ```shell
-yarn start-server
+pnpm start-server
 ```
 
 ## Development
@@ -11,17 +11,17 @@ yarn start-server
 
 Building the backend
 ```shell
-yarn build
+pnpm build
 ```
 
 Starting the server (without watching)
 ```shell
-yarn start
+pnpm start
 ```
 
 Starting the server in developer mode (with watching enabled)
 ```shell
-yarn watch
+pnpm watch
 ```
 
 ### Frontend

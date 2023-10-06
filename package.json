@@ -7,6 +7,10 @@
     "packages/*"
   ],
   "scripts": {
-    "start-server": "yarn --cwd packages/backend start"
+    "start-server": "pnpm --dir packages/backend start"
+  },
+  "engines": {
+    "node": "~18.18.0",
+    "pnpm": "~8.7.6"
   }
 }
